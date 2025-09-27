@@ -37,7 +37,7 @@ print(before_midnight("24:00") == 0)    # True
 
 print()
 
-from datetime import datetime, timedelta
+from datetime import datetime
 
 SECOND_PER_MIN = 60
 MIDNIGHT_STRING = '00:00'
